@@ -1,0 +1,227 @@
+body {
+	margin: 0;
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	font-family: Verdana, Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: black;
+}
+
+a:link {
+	color: #999;
+}
+a:visited {
+	color: #900;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	color: #000;
+}
+
+p::first-letter {
+	color: rgb(51, 40, 204);
+	font-size: 27px;
+}
+
+img {
+	border: 0;
+}
+
+ul {
+	list-style-image: url("../gfx/arrow.gif");
+	line-height: 1, 3;
+}
+
+#wrapper {
+	width: 920px;
+	margin: 0 auto;
+}
+
+#top {
+	background-image: url("../gfx/LA.jpg");
+	height: 121px;
+	position: relative;
+	border-top: 5px white solid;
+}
+
+
+
+#logo h1 a {
+	display: block;
+	text-indent: -999px;
+}
+
+#nav {
+	background: #515151;
+	border-top: 1px #ccc solid;
+}
+
+#nav ul {
+	margin: 0;
+	padding: 10px 0;
+}
+
+#nav ul li {
+	display: inline;
+	list-style: none;
+}
+
+#nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	padding: 10px;
+}
+
+#nav ul li a:hover {
+	background: #fff;
+	color: #000;
+}
+
+#numer {
+	margin: -24px 13px 12px 0;
+	text-align: right;
+	color: #fff;
+	background: url("../gfx/telefon.gif") right 50% no-repeat;
+	padding-right: 30px;
+}
+
+#content {
+	background: #fff;
+	padding-top: 1px;
+	float: right;
+	overflow: auto;
+	width: 100%;
+	
+}
+
+#content p {
+	margin: 0;
+	padding: 1em;
+	line-height: 1.4;
+	/* letter-spacing: 1px; */
+}
+
+#content h3 {
+	margin: 1em;
+	font-size: 1.1em;
+}
+
+#content h2 {
+	display: block;
+	width: 300px;
+	font-size: 1.3em;
+	padding: 1em;
+	margin: 2em 0 1.5em 0;
+	background: url("../gfx/kreski.gif") repeat;
+}
+
+#content #c1 {
+	width: 600px;
+	float: left;
+	font-size: 15px;
+}
+
+#content #obrazki {
+	padding: 1em;
+	text-align: center;
+}
+
+#content #obrazki img {
+	padding: 0 1em;
+}
+
+.lista-linkow li {
+	margin: 10px;
+	font-weight: bold;
+	font-size: 0, 9em;
+	border-top: 1px #ccc dashed;
+}
+
+.lista-linkow {
+	list-style-image: none;
+	list-style-type: none;
+}
+
+#content #c2 h2 {
+	width: 200px;
+	margin: 0;
+	padding: 1em;
+	font-size: 1.1em;
+	display: block;
+	background-image: none;
+	border-left: 3px #999 solid;
+}
+
+#content #c2 {
+	margin-top: 30px;
+	width: 300px;
+	background: url("../gfx/kreski2.gif");
+	float: right;
+}
+
+#content #c2 #c2-wrapper {
+	background: #fff;
+	margin-left: 23px;
+}
+
+#footer {
+	background: #343434;
+	color: #fff;
+	float: left;
+	width: 100%;
+}
+
+#copyright {
+	float: left;
+}
+
+#footer-menu {
+	float: right;
+	text-align: right;
+}
+
+#footer-menu a {
+	color: #fff;
+	padding: 0 5px;
+}
+
+table {
+
+    width: 100%;
+    border: 5px black solid;
+	height: 610px;
+}
+
+caption {
+
+    background: rgb(12, 149, 190);
+    color: white;
+    padding: 5px;
+    
+}
+table tr th {
+
+    text-align: center;
+    background: rgb(44, 47, 177);
+    color: white;
+    padding: 10px;
+}
+
+table tr {
+
+    background: rgb(178, 178, 190);
+}
+
+th, td {
+
+    padding: 10px;
+	text-align: center;
+}
+
+.kolor {
+
+    background: white;
+}
